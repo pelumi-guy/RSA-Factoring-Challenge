@@ -32,6 +32,9 @@ def getFactorization(num):
     Return:
         smallest prime factor that has a prime quotient
     """
+    if num < 2:
+        return
+
     x = num
     if num < MAXN: #intelligent factorisation using Sieve of Eratosthenes
         while (x != 1 and x < (floor(num ** 0.5) + 1)):
