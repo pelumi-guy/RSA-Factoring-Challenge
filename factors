@@ -16,10 +16,10 @@ def factor():
                 sqn += 1
             for i in range(3, sqn + 1, 2):
                 if num % i == 0:
-                    print("{}*{}".format(i, num//i))
+                    print("{}*{}".format(num//i, i))
                     break
             if num % i != 0:
-                print("{}={}*1".format(num, num))
+                print("{}*1".format(num))
 
 
 factor()
