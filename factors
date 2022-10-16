@@ -29,4 +29,3 @@ try:
             factorize(num)
 except:
     pass
-
